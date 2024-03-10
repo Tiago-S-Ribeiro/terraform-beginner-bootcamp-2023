@@ -1,3 +1,13 @@
 # Terraform Beginner Bootcamp 2023
 
-# Test
+
+### Terraform CLI changes
+
+The Terraform CLI installation instructions have changed due to gpg keyring changes. The latest CLI installation instructions were added via official documentation to a script and then added to the .gitpod.yaml file.
+
+### Resources
+
+- https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+- https://bash.cyberciti.biz/guide/Shebang
+- https://www.pluralsight.com/blog/it-ops/linux-file-permissions
+- https://www.gitpod.io/docs/configure/workspaces/tasks

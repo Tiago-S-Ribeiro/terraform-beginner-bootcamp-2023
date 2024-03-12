@@ -9,6 +9,11 @@ The Terraform CLI installation instructions have changed due to gpg keyring chan
 gp env PROJECT_ROOT='/workspace/terraform-beginner-bootcamp-2023'
 ```
 
+I can check if the AWS credentials are configured correctly by running:
+```
+aws sts get-caller-identity
+```
+
 ### Resources
 
 - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
@@ -16,3 +21,4 @@ gp env PROJECT_ROOT='/workspace/terraform-beginner-bootcamp-2023'
 - https://www.pluralsight.com/blog/it-ops/linux-file-permissions
 - https://www.gitpod.io/docs/configure/workspaces/tasks
 - https://www.geeksforgeeks.org/environment-variables-in-linux-unix/
+- https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html

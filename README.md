@@ -22,3 +22,12 @@ aws sts get-caller-identity
 - https://www.gitpod.io/docs/configure/workspaces/tasks
 - https://www.geeksforgeeks.org/environment-variables-in-linux-unix/
 - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
+
+
+### Terraform Cloud
+
+```
+$ terraform login
+```
+
+On the prompt cli, exit it with 'q' and click the link there to create a token directly in Terraform cloud.

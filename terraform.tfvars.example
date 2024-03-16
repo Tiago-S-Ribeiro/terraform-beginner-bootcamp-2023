@@ -1,2 +1,5 @@
+# https://spacelift.io/blog/terraform-tfvars
 user_uuid = "e578064c-5321-4466-adad-fd7022ed144b"
 bucket_name = "ejwe08ojpgo84dqy78f3dt4gni"
+index_html_filepath = "${PROJECT_ROOT}/public/index.html"
+error_html_filepath = "${PROJECT_ROOT}/public/error.html"

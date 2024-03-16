@@ -1,7 +1,21 @@
-resource "aws_s3_bucket" "website_bucket" {
-  bucket = var.bucket_name
+terraform {
+#  cloud {
+#    organization = "mephisto"
+#
+#    workspaces {
+#      name = "terratowns-house-1"
+#    }
+#  }
+#  required_providers {
+#    aws = {
+#      source = "hashicorp/aws"
+#      version = "5.40.0"
+#    }
+#  }
+}
 
-  tags = {
-    UserUuid = var.user_uuid
-  }
+module "terrahouse_aws" {
+  source = "./modules/terrahouse_aws"
+  user_uuid = var.user_uuid
+  bucket_name = var.bucket_name
 }

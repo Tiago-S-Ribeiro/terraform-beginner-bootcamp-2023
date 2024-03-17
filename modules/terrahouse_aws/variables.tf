@@ -32,3 +32,13 @@ variable "error_html_filepath" {
     error_message = "Invalid file path. Please provide a valid path to the error.html file."
   }
 }
+
+variable "content_version" { 
+  description = "Content version to ensure a file only gets uploaded when this version changes, and not where there's actual changes in the file"
+  type        = number
+
+  validation {
+    condition = var.content_version > 0 && floor(var.content_version) == var.content_version
+    error_message = "The content_version has to be a positive integer starting at 1."
+  }
+}

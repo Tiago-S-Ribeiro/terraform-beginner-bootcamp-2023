@@ -71,4 +71,4 @@ A bucket policy allows you to define who can access the objects in the bucket an
 
 ---
 
-(TO BE CONTINUED)
+(TO BE CONTINUED...)
